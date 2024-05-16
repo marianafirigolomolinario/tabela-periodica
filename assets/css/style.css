@@ -1,0 +1,147 @@
+/**Reset**/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/**Variavel**/
+
+:root{
+    --color-nao-metais: #4603b1;
+    --color-gases-nobres: #277da1;
+    --color-metais-alcalinos: #e20808;
+    --color-metais-alcalinos-terrosos: #F94141;
+    --color-semimetais: #43aa8b;
+    --color-halogenios: #87b465;
+    --color-outros-metais: #4d908e;
+    --color-metais-transicao: #2a796c;
+    --color-lantanideos: #277da1;
+    --color-actinidios: #79456c;
+    --color-text: #fff;
+}
+/**mobile**/
+.elemento{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    color: var(--color-text);
+}
+
+.naoMetais{
+    background-color: var(--color-nao-metais);
+}
+.gasesNobres{
+    background-color: var(--color-gases-nobres);
+}
+.metaisAlcalinos{
+    background-color: var(--color-metais-alcalinos);
+}
+.metaisAlcalinosTerrosos{
+    background-color: var(--color-metais-alcalinos-terrosos);
+}
+.semimetais{
+    background-color: var(--color-semimetais);
+}
+.halogenios{
+    background-color: var(--color-halogenios);
+}
+.outrosMetais{
+    background-color: var(--color-outros-metais);
+}
+.metaisTransicao{
+    background-color: var(--color-metais-transicao);
+}
+.lantanideos{
+    background-color: var(--color-lantanideos);
+}
+.actinidios{
+    background-color: var(--color-actinidios);
+}
+.estilo{
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.right{
+    text-align: end;
+}
+/**desktop**/
+@media screen and (min-width: 600px ) {
+    .tabela{
+        width: 1350px;
+        display: flex;
+        flex-direction: column;
+    }
+    .elemento{
+        width: 65px;
+        height: 65px;
+        margin: 5px;
+    }
+    .estilo{
+        font-size: 0.7rem;
+        padding: 5px;
+    }
+    .linha01{
+        display: flex;
+        justify-content: space-between;
+    }
+    .linha02{
+        display: flex;
+        justify-content: space-between;
+    }
+    .sublinha1{
+        display: flex;
+    }
+    .sublinha2{
+        display: flex;
+    }
+        .linha03{
+        display: flex;
+        justify-content: space-between;
+    }
+        .linha04{
+        display:flex;
+    }
+        .linha05{
+        display: flex;
+    }
+    .linhalantanideos{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .linhaactinidios{
+        display: flex;
+        justify-content: flex-end;
+    }
+        .linha06{
+        display: flex;
+        justify-content: space-between;
+    }
+        .linha07{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+    .container{
+    justify-content: center;
+    display: flex;
+    align-content: center;
+}
+    .elemento2{
+        width: 150px;
+        height: 25px;
+        margin: 20px;
+}
+.legenda1{
+    justify-content: space-between;
+    display: flex;
+}
+.texto{
+    width: 25px;
+}
+.legenda2{
+    justify-content: space-between;
+    display: flex;
+}
+
+
